@@ -1,0 +1,209 @@
+repo_name: 2lambda123/trading-signal-processing
+report_id: d832d3acbc76bf327f73d9225e1cd324
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-09T06:53:50+00:00'
+requested_by: citlacom
+provider: github
+branch: main
+detected_tools_count: 13
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/2lambda123/trading-signal-processing/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Pablo Cerda
+  last_updated_on: 2020-09-12 10:21:08.000000000 Z
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/2lambda123/trading-signal-processing
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/trading-signal-processing
+  detection_source: Repo Metadata
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/2lambda123/trading-signal-processing/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Pablo Cerda
+  last_updated_on: 2020-09-11 10:02:20.000000000 Z
+- name: AWS Lambda
+  description: Automatically run code in response to modifications to objects in Amazon
+    S3 buckets, messages in Kinesis streams, or updates in DynamoDB
+  website_url: http://aws.amazon.com/lambda
+  open_source: false
+  hosted_saas: true
+  category: Application Hosting
+  sub_category: Serverless / Task Processing
+  image_url: https://img.stackshare.io/service/1909/aws-lambda.png
+  detection_source_url: https://github.com/2lambda123/trading-signal-processing/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Pablo Cerda
+  last_updated_on: 2020-09-11 10:02:20.000000000 Z
+- name: Serverless
+  description: The most widely-adopted toolkit for building serverless applications
+  website_url: https://github.com/serverless/serverless
+  version: 1.83.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Serverless / Task Processing
+  image_url: https://img.stackshare.io/service/5095/serverless-logo.png
+  detection_source_url: https://github.com/2lambda123/trading-signal-processing/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Pablo Cerda
+  last_updated_on: 2020-09-11 11:23:43.000000000 Z
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 4.17.20
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: https://github.com/2lambda123/trading-signal-processing/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Pablo Cerda
+  last_updated_on: 2020-09-11 13:19:35.000000000 Z
+- name: Moment.js
+  description: A JavaScript date library for parsing, validating, manipulating, and
+    formatting dates
+  website_url: http://momentjs.com/
+  version: 2.27.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png
+  detection_source_url: https://github.com/2lambda123/trading-signal-processing/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Pablo Cerda
+  last_updated_on: 2020-09-12 05:32:14.000000000 Z
+- name: "@types/aws-lambda"
+  description: TypeScript definitions for AWS Lambda
+  package_url: https://www.npmjs.com/@types/aws-lambda
+  version: 8.10.62
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17868/default_b760b4f955878b0055c02bde0608c2f01e7d4f4f.png
+  detection_source_url: https://github.com/2lambda123/trading-signal-processing/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Pablo Cerda
+  last_updated_on: 2020-09-12 08:44:44.000000000 Z
+- name: aws-sdk
+  description: AWS SDK for JavaScript
+  package_url: https://www.npmjs.com/aws-sdk
+  version: 2.751.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16018/default_7a88bebb451873cc63bd99007de5bd3bb8ef85de.png
+  detection_source_url: https://github.com/2lambda123/trading-signal-processing/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Pablo Cerda
+  last_updated_on: 2020-09-12 08:44:44.000000000 Z
+  vulnerabilities:
+  - name: Prototype Pollution via file load in aws-sdk and @aws-sdk/shared-ini-file-loader
+    cve_id: CVE-2020-28472
+    cve_url: https://github.com/advisories/GHSA-rrc9-gqf8-8rwg
+    detected_date: Jan 28
+    severity: high
+    first_patched: 2.814.0
+- name: cross-fetch
+  description: Universal WHATWG Fetch API for Node
+  package_url: https://www.npmjs.com/cross-fetch
+  version: 3.0.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17537/default_1922051267fa78212ab6eb1238cdf6aab8771493.png
+  detection_source_url: https://github.com/2lambda123/trading-signal-processing/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Pablo Cerda
+  last_updated_on: 2020-09-11 11:23:43.000000000 Z
+  vulnerabilities:
+  - name: Incorrect Authorization in cross-fetch
+    cve_id: CVE-2022-1365
+    cve_url: https://github.com/advisories/GHSA-7gc6-qh9x-w6h8
+    detected_date: Apr 29
+    severity: moderate
+    first_patched: 3.1.5
+- name: csvtojson
+  description: A tool concentrating on converting csv data to JSON with customised
+    parser supporting
+  package_url: https://www.npmjs.com/csvtojson
+  version: 2.0.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18236/default_006273ebad013729e0798e0376579caca9efaa4e.png
+  detection_source_url: https://github.com/2lambda123/trading-signal-processing/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Pablo Cerda
+  last_updated_on: 2020-09-11 17:18:39.000000000 Z
+- name: moment
+  description: Parse, validate, manipulate, and display dates
+  package_url: https://www.npmjs.com/moment
+  version: 2.27.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15847/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/2lambda123/trading-signal-processing/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Pablo Cerda
+  last_updated_on: 2020-09-12 05:32:14.000000000 Z
+  vulnerabilities:
+  - name: 'Path Traversal: ''dir/../../filename'' in moment.locale'
+    cve_id: CVE-2022-24785
+    cve_url: https://github.com/advisories/GHSA-8hfj-j24r-96c4
+    detected_date: Apr 9
+    severity: high
+    first_patched: 2.29.2
+  - name: Moment.js vulnerable to Inefficient Regular Expression Complexity
+    cve_id: CVE-2022-31129
+    cve_url: https://github.com/advisories/GHSA-wc69-rhjr-hc9g
+    detected_date: Jul 7
+    severity: high
+    first_patched: 2.29.4
